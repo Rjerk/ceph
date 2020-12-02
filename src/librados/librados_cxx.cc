@@ -19,11 +19,13 @@
 #include "common/ceph_argparse.h"
 #include "common/ceph_json.h"
 #include "common/common_init.h"
+#include "common/Formatter.h"
 #include "common/TracepointProvider.h"
 #include "common/hobject.h"
 #include "common/async/waiter.h"
 #include "include/rados/librados.h"
 #include "include/rados/librados.hpp"
+#include "include/rados/rados_types.hpp"
 #include "include/types.h"
 #include <include/stringify.h>
 
